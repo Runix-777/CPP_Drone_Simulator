@@ -3,7 +3,7 @@
 
 void printRotorState(const Rotor& rotor) {
     std::cout << "Throttle: " << rotor.getThrottle() << std::endl;
-    std::cout << "Current RPM: " << rotor.getCurrentRPM() << std::endl;
+    std::cout << "Current Angular Velocity: " << rotor.getCurrentAngularVelocity() << std::endl;
     std::cout << "Current Thrust: " << rotor.getCurrentThrust() << std::endl;
     std::cout << "Current Torque: " << rotor.getCurrentTorque() << std::endl;
     std::cout << "Local Offset: (" << rotor.getLocalOffset().x << ", " << rotor.getLocalOffset().y << ", " << rotor.getLocalOffset().z << ")" << std::endl;
